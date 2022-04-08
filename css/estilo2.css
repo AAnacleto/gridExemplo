@@ -1,0 +1,51 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.2fr 1fr;
+    grid-template-rows: 0.2fr 2.5fr;
+    grid-template-areas: 
+    "nav nav"
+    "sidebar main"
+    "sidebar footer";
+    grid-gap: 0.2rem;
+
+
+}
+
+nav{
+    grid-area: nav;
+    text-align: center;
+
+}
+
+#sidebar{
+    grid-area: sidebar;
+
+
+}
+
+.menu{
+    list-style:none;
+    float:left;
+    padding: 10px;
+}
+
+.menu li {
+    margin-bottom: 10px;
+    position:relative;
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+
+main{
+    grid-area: main;
+
+
+}
+
+footer{
+    grid-area: footer;
+
+
+}
