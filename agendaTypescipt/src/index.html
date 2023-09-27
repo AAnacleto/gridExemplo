@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title>Minha agenda</title>
+</head>
+<body>
+    <main> 
+    <header> 
+       <h1>Minha agenda de contatos - Versão <span id="versão"> </span></h1>
+   </header>
+    <hr />
+
+    <h3>Adicionar novo contato</h3>
+  
+
+    <form method="post" class="new-contact-form">
+        <div class="input-group">
+            <label for="nome">Nome:</label>
+            <input name="nome" type="text" id="nome" placeholder="Digite o nome do contato">
+        </div>
+        <div class="input-group row">
+            <div class="col">
+                <label for="telefone">Telefone:</label>
+                <input name="telefone" type="tel" id="telefone" placeholder="Digite o telefone com DDD">
+            </div>
+            <div class="input-group col">
+                <label for="email">E-mail:</label>
+                <input name="email" type="email" id="email" placeholder="Digite o email do contato">
+            </div>
+        </div>
+        <div class="input-group">
+            <label for="interesses">Interesses:</label>
+            <textarea name="interesses" id="interesses" rows="2" cols="25" placeholder="Digite os interesses separados por vírgula"></textarea>
+        </div>
+        <button type="button" class="create-button">Cadastrar</button>
+    </form>
+    
+
+    <hr />
+
+    <h3>Meus Contatos</h3>
+
+    <table>
+       <thead> 
+        <tr> 
+            <th> Nome </th>
+            <th> Telefone </th>
+            <th> E-mail </th>
+            <th> Interesses </th>
+        </tr>
+       </thead> 
+       <tbody>  
+       
+        
+       </tbody>
+
+    </table>
+ </main>
+</body>
+</html>

@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+main{
+    width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+}
+
+.new-contact-form {
+    /* display: flex; */
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+
+ .input-group {
+    /* display: flex; */
+    /* flex-direction: column; */
+  }
+
+  /* CSS para estilizar o layout do formulário */
+.input-group {
+  margin-bottom: 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  flex-basis: 48%; /* Ajuste o valor conforme necessário */
+}
+
+/* Estilos adicionais a gosto */
+.create-button {
+  margin-top: 15px;
+  height: 40px;
+  width: 200px;
+  background-color: #7cbaf1;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+
+  .input-group input, .input-group textarea {
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+  }
+
+ 
+
+  thead{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+
+  
+  
+  table, td, th {
+    border-collapse: collapse;
+    border: 1px solid gray;
+    min-width: 223px;
+    
+  }
+  
+  tbody td:first-child {
+    font-family: monospace;
+  }
